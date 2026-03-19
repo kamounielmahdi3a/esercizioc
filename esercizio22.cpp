@@ -13,4 +13,4 @@ for(int i=0;i<n;i++){
 numeriinverso[i]=numeri[n-1-i];
 }
 for(int i=0;i<n;i++){
-cout<<"il numero "<<i+1<<" è: "<<numeriinverso[i]<<endl;}}
+cout<<"il numero "<<i<<" è: "<<numeriinverso[i]<<endl;}}
