@@ -1,20 +1,19 @@
 #include <iostream>
-#include <string> 
+#include <vector>
+#include <string>
 using namespace std;
 int main(){
 int n;
 cout<<"inserisci quanti numeri vuoi inserire: ";
 cin>>n;
 int numeri[n];
+
 for(int i=0;i<n;i++){
     cout<<"inserisci il numero "<<i<<": ";
     cin>>numeri[i];
 }
-while(n==n){cout<<" 1 Conta elementi pari
- 2 Conta elementi dispari
- 3 Somma elementi pari
- 4 Somma elementi dispari
- 5 Esci "<<endl;
+
+while(n==n){cout<<"1 Conta elementi pari,2 Conta elementi dispari,3 Somma elementi pari,4 Somma elementi dispari,5 Esci"<<endl;
 int scelta;
 cin>>scelta;
 if(scelta==1){
